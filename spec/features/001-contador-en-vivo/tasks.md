@@ -1,16 +1,10 @@
-# NNN · <Nombre de la feature> — Tareas
+# 001 · Contador en vivo — Tareas
 
-_Checklist accionable derivada del `plan.md`. Tareas pequeñas y concretas; marca `[x]` al completarlas._
-
-- [ ] <Tarea concreta de implementación.>
-- [ ] <Tarea concreta de implementación.>
-- [ ] <Tarea de pruebas / validación.>
-- [ ] <Actualizar documentación si aplica.>
-- [ ] Validar contra los criterios de aceptación de `spec.md`.
-- [ ] Mover la feature a "Hecho" en `../../constitution/roadmap.md`.
-
-## Mantenimiento (checklist recurrente)
-
-_Opcional. Pasos a repetir cada vez que se toque esta feature en el futuro (revisar datos, regenerar algo, etc.). Borra esta sección si no aplica._
-
-- [ ] <Acción recurrente.>
+- [x] Definir `CHATGPT_LAUNCH` en `script.js`
+- [x] Implementar `updateCounter()`(dias + h:m:s con padding).
+- [x] Pintar `#counter-days` y `counter-detail`
+- [x] Inicializar al cargar + `setInterval(...,1000)`.
+- [x] Añadir valores por defecto en `index.html` como fallback.
+- [x] Estilar `counter-card` en `styles.css`(mono, responsive).
+- [x] Validar con `node --check script.js`
+- [ ] Revisar visualmente en `python3 -m http.server 8765` (móvil y desktop).

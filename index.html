@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Y Aquí Seguimos · contador de profecías fallidas</title>
+  <meta name="description" content="Contador en vivo de días desde que ChatGPT prometió el fin de los programadores. Spoiler: aquí seguimos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="hero-sup">Desde el 30 de noviembre de 2022</p>
+      <h1 class="hero-title">Y AQUÍ SEGUIMOS</h1>
+      <p class="hero-sub">Días transcurridos desde que prometieron que los programadores desapareceríamos</p>
+      <div class="counter-card">
+        <span class="counter-days" id="counter-days">0</span>
+        <span class="counter-label">días</span>
+        <span class="counter-detail" id="counter-detail">00 h : 00 m : 00 s</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="reality" id="realidad">
+    <div class="container">
+      <h2 class="section-title">Mientras tanto, en la realidad</h2>
+      <div class="reality-grid">
+        <article class="reality-card">
+          <h3>Empleo en EE.UU.</h3>
+          <p class="reality-number">+3.9M</p>
+          <p>programadores empleados en 2025 según la BLS — la cifra más alta de la historia</p>
+        </article>
+        <article class="reality-card">
+          <h3>GitHub Octoverse</h3>
+          <p class="reality-number">+5M</p>
+          <p>nuevos desarrolladores en GitHub solo en el último año</p>
+        </article>
+        <article class="reality-card">
+          <h3>Código generado por IA</h3>
+          <p class="reality-number">&lt; 30%</p>
+          <p>del código en proyectos usa IA como asistente, no como reemplazo</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="timeline" id="timeline">
+    <div class="container">
+      <h2 class="section-title">Línea temporal de profecías</h2>
+      <div class="timeline-list" id="timeline-list">
+        <!-- renderizado por script.js -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="mono">Y Aquí Seguimos · un proyecto de <a href="https://github.com/ArturoMauricioDev" target="_blank" rel="noopener">ArturoMauricioDev</a></p>
+      <p class="footer-claim">Datos rigurosos, ironía rigurosa.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
